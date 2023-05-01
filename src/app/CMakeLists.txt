@@ -23,7 +23,7 @@ add_executable(${PROJECT_NAME}
 
 set(CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/../../deps/cmake/modules/" ${CMAKE_MODULE_PATH})
 set(FreeImage_DIR "" CACHE STRING "Custom FreeImage Library path")
-find_package(FreeImage REQUIRED)
+find_package(FreeImage)
 
 if(NOT WIN32)
   target_link_libraries(${PROJECT_NAME} m dl X11)
@@ -49,7 +49,9 @@ set_property(TARGET ${PROJECT_NAME} PROPERTY VS_DEBUGGER_WORKING_DIRECTORY "${CM
 set_property(TARGET ${PROJECT_NAME} PROPERTY VS_DEBUGGER_COMMAND_ARGUMENTS "-s ../../rsrc/gltf/crown/crown.gltf -integrator bench")
 
 if(WIN32)
+if (FreeImage_FOUND)
 add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
     COMMAND ${CMAKE_COMMAND} -E copy "\"${FreeImage_DIR}/FreeImage.dll\"" "\"$(SolutionDir)..\\bin\\$(Configuration)\\FreeImage.dll\""
 )
+endif()
 endif()
