@@ -16,3 +16,5 @@ x64
 deps/*
 !deps/wuhoo
 !deps/cmake
+!deps/glm
+!deps/GL
