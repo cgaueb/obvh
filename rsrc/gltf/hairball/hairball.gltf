@@ -1,0 +1,148 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.3.48",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2
+            ]
+        }
+    ],
+    "cameras" : [
+        {
+            "type": "perspective",
+            "perspective": {
+                "aspectRatio": 1,
+                "yfov" : 0.785398,
+                "zfar" : 0.00,
+                "znear" : 0.01
+            }
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "Light",
+            "rotation" : [
+                0.16907575726509094,
+                0.7558803558349609,
+                -0.27217137813568115,
+                0.570947527885437
+            ],
+            "translation" : [
+                4.076245307922363,
+                5.903861999511719,
+                -1.0054539442062378
+            ]
+        },
+        {
+            "name" : "Camera",
+            "matrix" : [ -0.709530, -0.407945, -0.574585, 0.000000, 0.000000, 0.815390, -0.578912, 0.000000, 0.704675, -0.410755, -0.578544, 0.000000, -0.012395, 0.027348, 11.951324, 1.000000 ],
+            "camera" : 0
+        },
+        {
+            "mesh" : 0,
+            "name" : "hairball",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Default OBJ",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "hairball",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 1470000,
+            "max" : [
+                4.5796098709106445,
+                4.622885227203369,
+                4.630561828613281
+            ],
+            "min" : [
+                -4.563293933868408,
+                -4.571279048919678,
+                -4.597643852233887
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 1470000,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5125,
+            "count" : 8640000,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 17640000,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 17640000,
+            "byteOffset" : 17640000
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 34560000,
+            "byteOffset" : 35280000
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 69840000,
+            "uri" : "hairball.bin"
+        }
+    ]
+}
