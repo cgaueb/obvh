@@ -87,3 +87,7 @@ The algorithm is implemented in `src\common\algorithm\dito\dito.cu` with the fun
 - A parallel, GPU-accelerated transformation of an existing tree based on AABBs to a tree based on OBBs
 
 The algorithm is implemented in `src\ads\common\cuda\transforms.cu` with the function `kr_cuda_bvh_obb_tree`
+
+## Acknowledgements
+
+This research was funded by the Hellenic Foundation for Research and Innovation (H.F.R.I.) under the <em>“3rd Call for H.F.R.I. Research Projects to support Post-Doctoral Researchers”</em> (Project No: 7310, <a href="https://lotus.aueb.gr">LOTUS</a>).
