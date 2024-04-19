@@ -90,4 +90,7 @@ The algorithm is implemented in `src\ads\common\cuda\transforms.cu` with the fun
 
 ## Acknowledgements
 
-This research was funded by the Hellenic Foundation for Research and Innovation (H.F.R.I.) under the <em>“3rd Call for H.F.R.I. Research Projects to support Post-Doctoral Researchers”</em> (Project No: 7310, <a href="https://lotus.aueb.gr">LOTUS</a>).
+<div style="display:flex;align-items:top">
+     <img src="https://lotus.aueb.gr/ELIDEK_Logo__Vector__GR_ENG_combo.jpg"
+     alt="ELIDEK_LOGO" style="width:120px;aspect-ratio: 2.59;" /> <p>This research was funded by the Hellenic Foundation for Research and Innovation (H.F.R.I.) under the <em>“3rd Call for H.F.R.I. Research Projects to support Post-Doctoral Researchers”</em> (Project No: 7310, <a href="https://lotus.aueb.gr">LOTUS</a>).</p>
+</div>
