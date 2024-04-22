@@ -89,4 +89,4 @@ The algorithm is implemented in `src\common\algorithm\dito\dito.cu` with the fun
 The algorithm is implemented in `src\ads\common\cuda\transforms.cu` with the function `kr_cuda_bvh_obb_tree`
 
 ## Acknowledgements
-<img src="ELIDEK_Logo__Vector__GR_ENG_combo.jpg" alt="ELIDEK_LOGO" align="left" style="float:left;width:120px;aspect-ratio: 2.59;" /> This research was funded by the Hellenic Foundation for Research and Innovation (H.F.R.I.) under the <em>“3rd Call for H.F.R.I. Research Projects to support Post-Doctoral Researchers”</em> (Project No: 7310, <a href="https://lotus.aueb.gr">LOTUS</a>).
+<img src="ELIDEK_Logo__Vector__GR_ENG_combo.jpg" alt="ELIDEK_LOGO" align="left" style="float:left;width:140px;aspect-ratio: 2.59;" /> This research was funded by the Hellenic Foundation for Research and Innovation (H.F.R.I.) under the <em>“3rd Call for H.F.R.I. Research Projects to support Post-Doctoral Researchers”</em> (Project No: 7310, <a href="https://lotus.aueb.gr">LOTUS</a>).
